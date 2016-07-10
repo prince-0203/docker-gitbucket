@@ -1,8 +1,8 @@
 FROM java:jre
 
-MAINTAINER f99aq8ove <f99aq8ove [at] gmail.com>
+MAINTAINER prince (https://github.com/prince-0203)
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/4.1/gitbucket.war /opt/gitbucket.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/4.2/gitbucket.war /opt/gitbucket.war
 
 RUN ln -s /gitbucket /root/.gitbucket
 
