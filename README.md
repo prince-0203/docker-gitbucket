@@ -1,7 +1,7 @@
 # docker-gitbucket
 [![Build Status](https://travis-ci.org/prince-0203/docker-gitbucket.svg?branch=master)](https://travis-ci.org/prince-0203/docker-gitbucket)
 
-Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) installed.
+Setup a container with [GitBucket](https://github.com/gitbucket/gitbucket) installed.
 
 ## Usage
 
