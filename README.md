@@ -1,5 +1,5 @@
-docker-gitbucket
-================
+# docker-gitbucket
+[![Build Status](https://travis-ci.org/prince-0203/docker-gitbucket.svg?branch=master)](https://travis-ci.org/prince-0203/docker-gitbucket)
 
 Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) installed.
 
@@ -8,7 +8,7 @@ Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) install
 To run the container, do the following:
 
 ```
-% docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket-data:/gitbucket f99aq8ove/gitbucket
+% docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket-data:/gitbucket prince-0203/gitbucket
 ```
 
 You can see gitbucket running on http://localhost:8080/
@@ -23,14 +23,14 @@ In order to access the git repository over SSH (port 29418), check settings belo
 To build the image, do the following:
 
 ```
-% docker build github.com/f99aq8ove/docker-gitbucket
+% docker build github.com/prince-0203/docker-gitbucket
 ```
 
 A prebuilt container is available in the docker index.
 
 ```
-% docker pull f99aq8ove/gitbucket
+% docker pull prince-0203/gitbucket
 ```
 
 ## GitBucket's license
-see https://github.com/takezoe/gitbucket
+see https://github.com/gitbucket/gitbucket
