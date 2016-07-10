@@ -8,7 +8,7 @@ Setup a container with [GitBucket](https://github.com/gitbucket/gitbucket) insta
 To run the container, do the following:
 
 ```
-% docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket-data:/gitbucket prince-0203/gitbucket
+% docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket-data:/gitbucket prince0203/gitbucket
 ```
 
 You can see gitbucket running on http://localhost:8080/
@@ -29,7 +29,7 @@ To build the image, do the following:
 A prebuilt container is available in the docker index.
 
 ```
-% docker pull prince-0203/gitbucket
+% docker pull prince0203/gitbucket
 ```
 
 ## GitBucket's license
